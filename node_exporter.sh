@@ -14,5 +14,5 @@ sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter
 cd .. 
 # Remove downloaded files 
 rm -rf node_exporter-1.8.2.linux-amd64*
-# Verify Installation
+# Verify Installation and Version
 node_exporter --version
